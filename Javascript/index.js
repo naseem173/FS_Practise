@@ -1,11 +1,8 @@
-//normal functions
+const names = ["fahad", "naseem", "zoya"];
 
-export default function Dosomething() {
-    
-}
 
-//arrow functions
+//names.forEach(name => console.log(name));
 
-export const Dosomething = () => {
-    
-}
+names.map((name => {
+    console.log(name);
+}));
