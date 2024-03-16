@@ -1,15 +1,12 @@
-import Card from "./Card";
+import Student from "./Student";
 
 function App() {
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <Student name="Iron man" age={30} isStudent={true} />
+      <Student name="Spider man" age={32} isStudent={false} />
+      <Student name="Thor" age={1500} isStudent={true} />
+      <Student name ="Hulk"/>
     </>
   );
 }
